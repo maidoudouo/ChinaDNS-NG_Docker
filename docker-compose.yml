@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+    chinadns-ng:
+        image: chinadns-ng
+        build: ./
+        container_name: chinadns-ng
+        restart: unless-stopped
+        privileged: true
+        volumes:
+            - ./gfwlist.txt:/etc/chinadns-ng/gfwlist.txt
+            - ./chnlist.txt:/etc/chinadns-ng/chnlist.txt
+        ports:
+            - "5353:53"
+        environment:
+            CHINA_DNS: "114.114.114.114,223.5.5.5" # 最多两组DNS
+            TRUCT_DNS: "202.141.162.123#5353,208.67.222.222#5353" # 最多两组DNS
