@@ -19,5 +19,5 @@
 ### 部署
 
 ```shell
-docker-compose up -d
+./build.sh
 ```
