@@ -266,8 +266,10 @@ add chnroute 42.242.0.0/15
 add chnroute 42.244.0.0/14
 add chnroute 42.248.0.0/13
 add chnroute 43.136.0.0/13
-add chnroute 43.144.0.0/12
+add chnroute 43.144.0.0/13
 add chnroute 43.160.0.0/11
+add chnroute 43.195.0.0/16
+add chnroute 43.196.0.0/15
 add chnroute 43.224.12.0/22
 add chnroute 43.224.24.0/22
 add chnroute 43.224.44.0/22
@@ -292,7 +294,6 @@ add chnroute 43.225.76.0/22
 add chnroute 43.225.84.0/22
 add chnroute 43.225.120.0/22
 add chnroute 43.225.124.0/22
-add chnroute 43.225.140.0/22
 add chnroute 43.225.172.0/22
 add chnroute 43.225.180.0/22
 add chnroute 43.225.208.0/22
@@ -602,7 +603,6 @@ add chnroute 43.237.180.0/22
 add chnroute 43.237.184.0/22
 add chnroute 43.237.188.0/22
 add chnroute 43.237.192.0/22
-add chnroute 43.237.196.0/22
 add chnroute 43.237.200.0/22
 add chnroute 43.237.204.0/22
 add chnroute 43.237.208.0/22
@@ -726,7 +726,6 @@ add chnroute 43.240.208.0/22
 add chnroute 43.240.212.0/22
 add chnroute 43.240.216.0/22
 add chnroute 43.240.220.0/22
-add chnroute 43.240.236.0/22
 add chnroute 43.240.240.0/22
 add chnroute 43.240.244.0/22
 add chnroute 43.240.248.0/22
@@ -749,7 +748,6 @@ add chnroute 43.241.172.0/22
 add chnroute 43.241.176.0/22
 add chnroute 43.241.180.0/22
 add chnroute 43.241.184.0/22
-add chnroute 43.241.196.0/22
 add chnroute 43.241.208.0/22
 add chnroute 43.241.212.0/22
 add chnroute 43.241.216.0/22
@@ -807,7 +805,6 @@ add chnroute 43.243.144.0/22
 add chnroute 43.243.148.0/22
 add chnroute 43.243.156.0/22
 add chnroute 43.243.180.0/22
-add chnroute 43.243.188.0/22
 add chnroute 43.243.228.0/22
 add chnroute 43.243.232.0/22
 add chnroute 43.243.244.0/22
@@ -1069,7 +1066,6 @@ add chnroute 45.114.32.0/22
 add chnroute 45.114.40.0/22
 add chnroute 45.114.52.0/22
 add chnroute 45.114.96.0/22
-add chnroute 45.114.104.0/22
 add chnroute 45.114.124.0/22
 add chnroute 45.114.136.0/22
 add chnroute 45.114.196.0/22
@@ -1115,7 +1111,6 @@ add chnroute 45.119.232.0/22
 add chnroute 45.120.100.0/22
 add chnroute 45.120.140.0/22
 add chnroute 45.120.164.0/22
-add chnroute 45.120.220.0/22
 add chnroute 45.120.240.0/22
 add chnroute 45.121.52.0/22
 add chnroute 45.121.64.0/22
@@ -1226,7 +1221,6 @@ add chnroute 45.124.248.0/22
 add chnroute 45.125.12.0/22
 add chnroute 45.125.16.0/22
 add chnroute 45.125.24.0/22
-add chnroute 45.125.28.0/22
 add chnroute 45.125.44.0/22
 add chnroute 45.125.52.0/22
 add chnroute 45.125.56.0/22
@@ -1288,7 +1282,6 @@ add chnroute 45.249.24.0/22
 add chnroute 45.249.28.0/22
 add chnroute 45.249.32.0/22
 add chnroute 45.249.36.0/22
-add chnroute 45.249.92.0/22
 add chnroute 45.249.112.0/22
 add chnroute 45.249.188.0/22
 add chnroute 45.249.192.0/22
@@ -1886,7 +1879,8 @@ add chnroute 101.37.0.0/16
 add chnroute 101.38.0.0/15
 add chnroute 101.40.0.0/15
 add chnroute 101.42.0.0/15
-add chnroute 101.44.0.0/14
+add chnroute 101.45.0.0/16
+add chnroute 101.46.0.0/15
 add chnroute 101.48.0.0/15
 add chnroute 101.50.8.0/22
 add chnroute 101.50.12.0/22
@@ -2050,7 +2044,6 @@ add chnroute 103.13.144.0/22
 add chnroute 103.13.196.0/22
 add chnroute 103.13.220.0/22
 add chnroute 103.13.244.0/22
-add chnroute 103.14.32.0/22
 add chnroute 103.14.84.0/22
 add chnroute 103.14.100.0/22
 add chnroute 103.14.132.0/22
@@ -2449,7 +2442,6 @@ add chnroute 103.36.232.0/22
 add chnroute 103.36.236.0/22
 add chnroute 103.36.240.0/22
 add chnroute 103.36.244.0/22
-add chnroute 103.37.0.0/22
 add chnroute 103.37.12.0/22
 add chnroute 103.37.16.0/22
 add chnroute 103.37.24.0/22
@@ -2459,7 +2451,6 @@ add chnroute 103.37.56.0/22
 add chnroute 103.37.72.0/22
 add chnroute 103.37.100.0/22
 add chnroute 103.37.104.0/22
-add chnroute 103.37.124.0/22
 add chnroute 103.37.136.0/22
 add chnroute 103.37.140.0/22
 add chnroute 103.37.144.0/22
@@ -2492,7 +2483,6 @@ add chnroute 103.38.140.0/22
 add chnroute 103.38.224.0/22
 add chnroute 103.38.228.0/22
 add chnroute 103.38.232.0/22
-add chnroute 103.39.16.0/22
 add chnroute 103.39.64.0/22
 add chnroute 103.39.88.0/22
 add chnroute 103.39.100.0/22
@@ -2798,7 +2788,6 @@ add chnroute 103.53.236.0/22
 add chnroute 103.53.248.0/22
 add chnroute 103.54.8.0/22
 add chnroute 103.54.48.0/22
-add chnroute 103.54.60.0/22
 add chnroute 103.54.160.0/22
 add chnroute 103.54.164.0/22
 add chnroute 103.54.212.0/22
@@ -3049,16 +3038,13 @@ add chnroute 103.69.16.0/22
 add chnroute 103.69.116.0/22
 add chnroute 103.69.132.0/22
 add chnroute 103.69.152.0/22
-add chnroute 103.69.212.0/22
 add chnroute 103.70.8.0/22
 add chnroute 103.70.148.0/22
-add chnroute 103.70.184.0/22
 add chnroute 103.70.220.0/22
 add chnroute 103.70.224.0/22
 add chnroute 103.70.236.0/22
 add chnroute 103.70.252.0/22
 add chnroute 103.71.0.0/22
-add chnroute 103.71.32.0/22
 add chnroute 103.71.48.0/22
 add chnroute 103.71.68.0/22
 add chnroute 103.71.72.0/22
@@ -3089,7 +3075,6 @@ add chnroute 103.72.120.0/22
 add chnroute 103.72.124.0/22
 add chnroute 103.72.128.0/22
 add chnroute 103.72.132.0/22
-add chnroute 103.72.144.0/22
 add chnroute 103.72.148.0/22
 add chnroute 103.72.172.0/22
 add chnroute 103.72.180.0/22
@@ -3110,7 +3095,6 @@ add chnroute 103.73.20.0/22
 add chnroute 103.73.24.0/22
 add chnroute 103.73.28.0/22
 add chnroute 103.73.48.0/22
-add chnroute 103.73.88.0/22
 add chnroute 103.73.96.0/22
 add chnroute 103.73.116.0/22
 add chnroute 103.73.120.0/22
@@ -3142,7 +3126,6 @@ add chnroute 103.74.152.0/22
 add chnroute 103.74.156.0/22
 add chnroute 103.74.204.0/22
 add chnroute 103.74.232.0/22
-add chnroute 103.75.16.0/22
 add chnroute 103.75.88.0/22
 add chnroute 103.75.92.0/22
 add chnroute 103.75.104.0/22
@@ -3252,7 +3235,6 @@ add chnroute 103.84.48.0/22
 add chnroute 103.84.64.0/22
 add chnroute 103.84.72.0/22
 add chnroute 103.84.92.0/22
-add chnroute 103.84.108.0/22
 add chnroute 103.84.136.0/22
 add chnroute 103.85.20.0/22
 add chnroute 103.85.24.0/22
@@ -3480,7 +3462,6 @@ add chnroute 103.97.144.0/22
 add chnroute 103.97.148.0/22
 add chnroute 103.97.188.0/22
 add chnroute 103.97.192.0/22
-add chnroute 103.97.224.0/22
 add chnroute 103.97.228.0/23
 add chnroute 103.98.28.0/23
 add chnroute 103.98.40.0/22
@@ -3594,7 +3575,6 @@ add chnroute 103.105.4.0/22
 add chnroute 103.105.12.0/22
 add chnroute 103.105.16.0/22
 add chnroute 103.105.23.0/24
-add chnroute 103.105.56.0/22
 add chnroute 103.105.60.0/22
 add chnroute 103.105.116.0/22
 add chnroute 103.105.132.0/22
@@ -3732,7 +3712,6 @@ add chnroute 103.117.132.0/22
 add chnroute 103.117.136.0/22
 add chnroute 103.117.188.0/22
 add chnroute 103.117.220.0/22
-add chnroute 103.118.19.0/24
 add chnroute 103.118.36.0/22
 add chnroute 103.118.52.0/22
 add chnroute 103.118.56.0/22
@@ -3814,7 +3793,6 @@ add chnroute 103.126.124.0/22
 add chnroute 103.126.128.0/22
 add chnroute 103.126.132.0/22
 add chnroute 103.126.208.0/22
-add chnroute 103.126.241.0/24
 add chnroute 103.129.52.0/22
 add chnroute 103.130.132.0/22
 add chnroute 103.130.152.0/24
@@ -3889,7 +3867,6 @@ add chnroute 103.139.113.0/24
 add chnroute 103.139.134.0/23
 add chnroute 103.139.136.0/23
 add chnroute 103.139.172.0/23
-add chnroute 103.139.200.0/23
 add chnroute 103.139.204.0/23
 add chnroute 103.139.212.0/23
 add chnroute 103.140.8.0/23
@@ -3900,10 +3877,8 @@ add chnroute 103.140.140.0/23
 add chnroute 103.140.144.0/23
 add chnroute 103.140.152.0/23
 add chnroute 103.140.192.0/23
-add chnroute 103.140.194.0/23
 add chnroute 103.140.228.0/23
 add chnroute 103.141.10.0/23
-add chnroute 103.141.36.0/23
 add chnroute 103.141.58.0/23
 add chnroute 103.141.128.0/23
 add chnroute 103.141.186.0/23
@@ -3984,7 +3959,6 @@ add chnroute 103.149.132.0/23
 add chnroute 103.149.144.0/23
 add chnroute 103.149.156.0/23
 add chnroute 103.149.181.0/24
-add chnroute 103.149.190.0/23
 add chnroute 103.149.210.0/23
 add chnroute 103.149.214.0/23
 add chnroute 103.149.220.0/23
@@ -4025,7 +3999,6 @@ add chnroute 103.152.28.0/23
 add chnroute 103.152.30.0/23
 add chnroute 103.152.56.0/23
 add chnroute 103.152.76.0/23
-add chnroute 103.152.80.0/23
 add chnroute 103.152.98.0/23
 add chnroute 103.152.112.0/23
 add chnroute 103.152.120.0/23
@@ -4079,7 +4052,6 @@ add chnroute 103.156.68.0/23
 add chnroute 103.156.78.0/23
 add chnroute 103.156.104.0/23
 add chnroute 103.156.158.0/23
-add chnroute 103.156.166.0/23
 add chnroute 103.156.174.0/23
 add chnroute 103.156.186.0/23
 add chnroute 103.156.228.0/23
@@ -4146,6 +4118,45 @@ add chnroute 103.167.0.0/23
 add chnroute 103.167.36.0/23
 add chnroute 103.168.98.0/23
 add chnroute 103.168.170.0/23
+add chnroute 103.169.50.0/23
+add chnroute 103.169.62.0/23
+add chnroute 103.169.108.0/23
+add chnroute 103.169.162.0/23
+add chnroute 103.169.202.0/23
+add chnroute 103.169.216.0/23
+add chnroute 103.170.4.0/23
+add chnroute 103.170.72.0/23
+add chnroute 103.170.134.0/23
+add chnroute 103.170.210.0/23
+add chnroute 103.170.212.0/23
+add chnroute 103.171.32.0/23
+add chnroute 103.171.166.0/23
+add chnroute 103.171.214.0/23
+add chnroute 103.172.32.0/23
+add chnroute 103.172.160.0/23
+add chnroute 103.172.191.0/24
+add chnroute 103.173.102.0/23
+add chnroute 103.173.182.0/23
+add chnroute 103.173.184.0/23
+add chnroute 103.174.94.0/23
+add chnroute 103.175.14.0/23
+add chnroute 103.175.98.0/23
+add chnroute 103.175.114.0/23
+add chnroute 103.175.118.0/23
+add chnroute 103.176.52.0/23
+add chnroute 103.176.222.0/23
+add chnroute 103.176.244.0/23
+add chnroute 103.177.28.0/23
+add chnroute 103.177.44.0/23
+add chnroute 103.177.70.0/23
+add chnroute 103.177.136.0/23
+add chnroute 103.177.162.0/23
+add chnroute 103.178.56.0/23
+add chnroute 103.178.240.0/23
+add chnroute 103.179.76.0/23
+add chnroute 103.179.78.0/23
+add chnroute 103.180.108.0/23
+add chnroute 103.180.226.0/23
 add chnroute 103.192.0.0/22
 add chnroute 103.192.4.0/22
 add chnroute 103.192.8.0/22
@@ -4179,9 +4190,7 @@ add chnroute 103.192.252.0/22
 add chnroute 103.193.40.0/22
 add chnroute 103.193.44.0/22
 add chnroute 103.193.120.0/22
-add chnroute 103.193.124.0/22
 add chnroute 103.193.140.0/22
-add chnroute 103.193.144.0/22
 add chnroute 103.193.160.0/22
 add chnroute 103.193.188.0/22
 add chnroute 103.193.192.0/22
@@ -4196,7 +4205,6 @@ add chnroute 103.193.240.0/22
 add chnroute 103.194.16.0/22
 add chnroute 103.195.104.0/22
 add chnroute 103.195.112.0/22
-add chnroute 103.195.136.0/22
 add chnroute 103.195.148.0/22
 add chnroute 103.195.152.0/22
 add chnroute 103.195.160.0/22
@@ -4427,7 +4435,6 @@ add chnroute 103.206.44.0/22
 add chnroute 103.206.148.0/22
 add chnroute 103.207.48.0/22
 add chnroute 103.207.104.0/22
-add chnroute 103.207.164.0/22
 add chnroute 103.207.184.0/22
 add chnroute 103.207.188.0/22
 add chnroute 103.207.192.0/22
@@ -4445,14 +4452,12 @@ add chnroute 103.208.28.0/22
 add chnroute 103.208.40.0/22
 add chnroute 103.208.44.0/22
 add chnroute 103.208.48.0/22
-add chnroute 103.208.148.0/22
 add chnroute 103.209.112.0/22
 add chnroute 103.209.136.0/22
 add chnroute 103.209.200.0/22
 add chnroute 103.209.208.0/22
 add chnroute 103.209.216.0/22
 add chnroute 103.210.0.0/22
-add chnroute 103.210.20.0/22
 add chnroute 103.210.96.0/22
 add chnroute 103.210.156.0/22
 add chnroute 103.210.160.0/22
@@ -4538,7 +4543,6 @@ add chnroute 103.215.108.0/22
 add chnroute 103.215.116.0/22
 add chnroute 103.215.120.0/22
 add chnroute 103.215.140.0/22
-add chnroute 103.215.228.0/22
 add chnroute 103.216.4.0/22
 add chnroute 103.216.8.0/22
 add chnroute 103.216.12.0/22
@@ -4584,7 +4588,6 @@ add chnroute 103.217.192.0/22
 add chnroute 103.217.196.0/22
 add chnroute 103.217.200.0/22
 add chnroute 103.217.204.0/22
-add chnroute 103.218.0.0/22
 add chnroute 103.218.8.0/22
 add chnroute 103.218.12.0/22
 add chnroute 103.218.16.0/22
@@ -4854,7 +4857,6 @@ add chnroute 103.227.212.0/22
 add chnroute 103.227.228.0/22
 add chnroute 103.228.12.0/22
 add chnroute 103.228.88.0/22
-add chnroute 103.228.128.0/22
 add chnroute 103.228.136.0/22
 add chnroute 103.228.160.0/22
 add chnroute 103.228.176.0/22
@@ -5043,7 +5045,6 @@ add chnroute 103.240.36.0/22
 add chnroute 103.240.72.0/22
 add chnroute 103.240.84.0/22
 add chnroute 103.240.124.0/22
-add chnroute 103.240.156.0/22
 add chnroute 103.240.172.0/22
 add chnroute 103.240.188.0/22
 add chnroute 103.240.244.0/22
@@ -5570,7 +5571,8 @@ add chnroute 118.26.96.0/21
 add chnroute 118.26.112.0/21
 add chnroute 118.26.120.0/21
 add chnroute 118.26.128.0/20
-add chnroute 118.26.160.0/19
+add chnroute 118.26.160.0/20
+add chnroute 118.26.188.0/22
 add chnroute 118.26.192.0/18
 add chnroute 118.28.0.0/15
 add chnroute 118.30.0.0/16
@@ -5684,7 +5686,6 @@ add chnroute 119.40.64.0/20
 add chnroute 119.40.128.0/17
 add chnroute 119.41.0.0/16
 add chnroute 119.42.0.0/19
-add chnroute 119.42.52.0/22
 add chnroute 119.42.128.0/21
 add chnroute 119.42.136.0/21
 add chnroute 119.42.224.0/19
@@ -5799,6 +5800,7 @@ add chnroute 121.68.0.0/14
 add chnroute 121.76.0.0/15
 add chnroute 121.79.128.0/18
 add chnroute 121.89.0.0/16
+add chnroute 121.91.104.0/21
 add chnroute 121.100.128.0/17
 add chnroute 121.101.0.0/18
 add chnroute 121.101.208.0/20
@@ -5815,7 +5817,8 @@ add chnroute 121.255.0.0/16
 add chnroute 122.0.64.0/18
 add chnroute 122.0.128.0/17
 add chnroute 122.4.0.0/14
-add chnroute 122.8.0.0/16
+add chnroute 122.8.0.0/17
+add chnroute 122.8.192.0/18
 add chnroute 122.9.0.0/16
 add chnroute 122.10.128.0/22
 add chnroute 122.10.132.0/23
@@ -6106,6 +6109,7 @@ add chnroute 140.250.0.0/16
 add chnroute 140.255.0.0/16
 add chnroute 142.70.0.0/16
 add chnroute 142.86.0.0/16
+add chnroute 143.64.0.0/16
 add chnroute 144.0.0.0/16
 add chnroute 144.7.0.0/16
 add chnroute 144.12.0.0/16
@@ -6186,7 +6190,6 @@ add chnroute 153.99.0.0/16
 add chnroute 153.101.0.0/16
 add chnroute 153.118.0.0/15
 add chnroute 154.8.128.0/17
-add chnroute 156.59.0.0/16
 add chnroute 157.0.0.0/16
 add chnroute 157.18.0.0/16
 add chnroute 157.61.0.0/16
@@ -6213,7 +6216,7 @@ add chnroute 157.122.0.0/16
 add chnroute 157.148.0.0/16
 add chnroute 157.156.0.0/16
 add chnroute 157.255.0.0/16
-add chnroute 158.60.128.0/17
+add chnroute 158.60.0.0/16
 add chnroute 158.79.0.0/16
 add chnroute 159.27.0.0/16
 add chnroute 159.75.0.0/16
@@ -6334,7 +6337,6 @@ add chnroute 175.160.0.0/12
 add chnroute 175.176.156.0/22
 add chnroute 175.176.176.0/22
 add chnroute 175.176.188.0/22
-add chnroute 175.176.192.0/22
 add chnroute 175.178.0.0/16
 add chnroute 175.184.128.0/18
 add chnroute 175.185.0.0/16
@@ -6421,7 +6423,6 @@ add chnroute 182.239.0.0/19
 add chnroute 182.240.0.0/13
 add chnroute 182.254.0.0/16
 add chnroute 182.255.32.0/22
-add chnroute 182.255.36.0/22
 add chnroute 182.255.60.0/22
 add chnroute 183.0.0.0/10
 add chnroute 183.64.0.0/13
@@ -8594,7 +8595,8 @@ add chnroute 223.112.0.0/14
 add chnroute 223.116.0.0/15
 add chnroute 223.120.128.0/17
 add chnroute 223.121.128.0/17
-add chnroute 223.122.0.0/15
+add chnroute 223.122.128.0/17
+add chnroute 223.123.0.0/16
 add chnroute 223.124.0.0/14
 add chnroute 223.128.0.0/15
 add chnroute 223.144.0.0/12
