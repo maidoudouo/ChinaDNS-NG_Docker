@@ -7,6 +7,10 @@ services:
         restart: unless-stopped
         privileged: true
         network_mode: "host"
+        logging: 
+            driver: "json-file"
+            options: 
+                max-size: "10m"
         volumes:
             - ./:/etc/chinadns-ng/
         environment:
