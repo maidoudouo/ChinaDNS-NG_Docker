@@ -33,14 +33,14 @@ COPY --from=builder /app/chinadns-ng /usr/local/bin/chinadns-ng
 COPY entrypoint.sh /usr/local/bin/
 
 RUN mkdir /etc/chinadns-ng
-COPY chnroute.ipset /etc/chinadns-ng/
-COPY chnroute6.ipset /etc/chinadns-ng/
-COPY update-chnlist.sh /etc/chinadns-ng/
-COPY update-chnroute.sh /etc/chinadns-ng/
-COPY update-chnroute6.sh /etc/chinadns-ng/
-COPY update-gfwlist.sh /etc/chinadns-ng/
-COPY update-all.sh /etc/chinadns-ng/
-COPY cron.sh /etc/chinadns-ng/
+# COPY chnroute.ipset /etc/chinadns-ng/
+# COPY chnroute6.ipset /etc/chinadns-ng/
+# COPY update-chnlist.sh /etc/chinadns-ng/
+# COPY update-chnroute.sh /etc/chinadns-ng/
+# COPY update-chnroute6.sh /etc/chinadns-ng/
+# COPY update-gfwlist.sh /etc/chinadns-ng/
+# COPY update-all.sh /etc/chinadns-ng/
+# COPY cron.sh /etc/chinadns-ng/
 
 RUN echo "30 4 * * * cd /etc/chinadns-ng/ && ./cron.sh 2>&1 > /dev/null" >> /etc/crontabs/root
 

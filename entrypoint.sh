@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
 
+ipset destroy chnroute
+ipset destroy chnroute6
 ipset -R <chnroute.ipset
 ipset -R <chnroute6.ipset
 nohup crond -l 2 -f >/dev/null 2>&1 &

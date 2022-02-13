@@ -8,8 +8,7 @@ services:
         privileged: true
         network_mode: "host"
         volumes:
-            - ./gfwlist.txt:/etc/chinadns-ng/gfwlist.txt
-            - ./chnlist.txt:/etc/chinadns-ng/chnlist.txt
+            - ./:/etc/chinadns-ng/
         environment:
             # 监听端口
             PORT: 5353
