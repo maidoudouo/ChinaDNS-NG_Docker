@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -o errexit
 set -o pipefail
 echo "create chnroute6 hash:net family inet6" >chnroute6.ipset
